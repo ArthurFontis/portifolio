@@ -11,8 +11,8 @@
 
 @media screen and (max-width: 768px) {
     body {
-        flex-direction: column; 
-        justify-content: center; 
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
         height: auto;
     }
@@ -29,27 +29,30 @@
     }
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-body{
+
+body {
     background-color: #cecaca;
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    height: 100vh; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
     padding: 0, 10%;
-    
+
 }
-section#texto{
+
+section#texto {
     width: 60%;
     text-align: center;
     font-size: 2.6em;
 
 }
+
 h1 {
     color: var(--cor-pri);
     font-family: var(--font-pri);
@@ -62,14 +65,16 @@ h2 {
     font-size: 2.2em;
 }
 
-div#moldura>section#foto>p#nome{
+div#moldura>section#foto>p#nome {
     padding-top: 240px;
     padding-bottom: 6px;
 }
-div#moldura>section#foto>p#dev{
+
+div#moldura>section#foto>p#dev {
     padding-bottom: 40px;
 }
-section#foto{
+
+section#foto {
     position: relative;
     color: var(--cor-sec);
     width: 400px;
@@ -81,7 +86,8 @@ section#foto{
     align-items: flex-end;
     padding-bottom: 10px;
 }
-div#redes{
+
+div#redes {
     background-color: var(--cor-pri);
     width: 100%;
     padding: 15px 0;
@@ -91,30 +97,34 @@ div#redes{
     border-radius: 20px;
 
 }
-div#redes > a:hover img {
-    transform: scale(1.2); 
+
+div#redes>a:hover img {
+    transform: scale(1.2);
 }
-div#redes>a>img{
+
+div#redes>a>img {
     padding-inline: 10px;
     width: 70px;
     height: 70px;
     border-radius: 70px;
     transition: transform 0.3s ease-in-out;
 }
+
 div#moldura {
     position: relative;
     background-color: black;
     border-radius: 20px;
-    width: 450px; 
-    height: 500px; 
-    margin-left: auto; 
-    margin-right: 50px; 
+    width: 450px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-div#moldura>section#foto>img{
+
+div#moldura>section#foto>img {
     position: absolute;
     right: 25%;
     width: 200px;
